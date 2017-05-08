@@ -5,7 +5,14 @@
     "dependencies": {
         "react": "^15.5.4",
         "react-dom": "^15.5.4",
-        "weui": "^1.1.0"
+        "weui": "^1.1.0",
+        "react-scroll": "^1.5.2",
+        "react-spark-scroll": "^2.0.3",
+        "react-track": "^0.4.4",
+        "functional-easing": "^1.0.8",
+        "react-imation": "^0.5.3",
+        "classnames": "^2.2.5",
+        "layout-components": "^2.6.3"
     },
     "devDependencies": {
         "react-scripts": "0.9.5",
