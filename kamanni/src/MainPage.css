@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.element {
+	height: 100vh;
+  width: 100vw;
+	background-color: #FF0DFF;
+	font-size: 45px;
+	border-top: 0px solid #000;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+.active {
+	color:red !important;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -15px;
+  font-size: 50px;
+  color: #7ea54e;
+}
+
+/* pin */
+.pin {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+}
+
+.pin-pin {
+  position: fixed;
+}
+
+.pin-unpin {
+  position: absolute;
+  bottom: 0;
+  top: auto;
+}
+
+.pin-txt {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.pin-cont {
+  position: relative;
+  height: 1400px;
+}
+
+.pin-cont-proxy {
+  position: absolute;
+  height: 100%;
+}
+
+/* slide, reveal */
+.slide-proxy {
+  height:200px;
+}
+
+.slide,
+.reveal {
+  position: absolute;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background: blue;
+  z-index: 5;
+}
+
+.reveal {
+  overflow: hidden;
+}
+
+.slide-txt,
+.reveal-txt {
+  position: absolute;
+  top: 50%;
+  margin: -70px 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+.slide-spacer {
+  height: 600px;
+}
+
+/* unpin */
+.unpin-txt {
+  position: absolute;
+  top: 100%;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 5;
+}
+

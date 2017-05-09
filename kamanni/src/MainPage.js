@@ -43,10 +43,8 @@ class MainPage extends Component {
         super(props);
         this.scrollToTop = this.scrollToTop.bind(this);
 
-        this.height = 250
+        this.height = 250;
         this.totalHeight = this.height * 9;
-        console.log(this.height)
-        console.log(this.totalHeight)
     };
 
     componentDidMount() {
@@ -128,7 +126,7 @@ class MainPage extends Component {
                                 {/* when we hit the appropriate scroll position, change the
                                 text to 'slide' or 'color' depending on the position */}
                                 <h3 className="slide-txt">
-                                    {scrollY}
+                                    公司简介
                                 </h3>
 
                             </div>
@@ -143,7 +141,7 @@ class MainPage extends Component {
                                 {/* when we hit the appropriate scroll position, change the
                                 text to 'slide' or 'color' depending on the position */}
                                 <h3 className="slide-txt">
-                                    {scrollY}
+                                   产品介绍
                                 </h3>
 
                             </div>
@@ -158,7 +156,7 @@ class MainPage extends Component {
                                 {/* when we hit the appropriate scroll position, change the
                                 text to 'slide' or 'color' depending on the position */}
                                 <h3 className="slide-txt">
-                                    {scrollY}
+                                      学校介绍
                                 </h3>
 
                             </div>
@@ -173,7 +171,7 @@ class MainPage extends Component {
                                 {/* when we hit the appropriate scroll position, change the
                                 text to 'slide' or 'color' depending on the position */}
                                 <h3 className="slide-txt">
-                                    {scrollY}
+                                    关于和招聘
                                 </h3>
 
                             </div>
