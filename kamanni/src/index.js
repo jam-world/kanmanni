@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import MainPage from './MainPage';
+import ProductContainer from './ProductContainer';
 
 /* use the router library*/
 import {
@@ -12,11 +13,14 @@ class EntryPoint extends Component {
     render() {
         return (
             <Router>
-                <Route path="/" component={MainPage}/>
+                <div>
+                    <Route exact path="/" component={MainPage}/>
+                    <Route path="/ProductContainer" component={ProductContainer}/>
+                </div>
             </Router>
         );
     };
-}
+};
 
 ReactDOM.render(
     <EntryPoint />,
